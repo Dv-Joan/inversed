@@ -1,0 +1,73 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 10vh;
+
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.05);
+}
+.navigation a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.navigation a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.navigation .logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.navigation .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+.navigation .menu .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.navigation .menu .profile .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.navigation .menu .profile .name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.navigation .menu .profile .logout {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navigation .menu .profile .logout:hover {
+  text-decoration: underline;
+}
+.navigation .menu .profile .logout:active {
+  color: #000;
+}
+.navigation .menu .profile .logout:focus {
+  outline: none;
+}
+.navigation .menu .profile .logout:visited {
+  color: #000;
+}
+.navigation .menu .profile .logout:link {
+  color: #000;
+}
+.navigation .menu .profile .logout:disabled {
+  color: #000;
+}
+.navigation .menu .profile .logout:enabled {
+  color: #000;
+}

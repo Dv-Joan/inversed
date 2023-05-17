@@ -4,22 +4,20 @@ import type { DocumentHead } from '@builder.io/qwik-city';
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
+      <h1>Inverse</h1>
       <p>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
+        Project for <a href="www.google.com">Inverse INC</a> solutions to get started with Qwik.
       </p>
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Inverse',
   meta: [
     {
-      name: 'description',
-      content: 'Qwik site description',
+      name: 'Inverse Inc', 
+      content: 'Inverse Inc technology solutions company',
     },
   ],
 };
