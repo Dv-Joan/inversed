@@ -1,13 +1,11 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+// import Header from '~/components/header';
 
 export default component$(() => {
   return (
     <>
-      <h1>Inverse</h1>
-      <p>
-        Project for <a href="www.google.com">Inverse INC</a> solutions to get started with Qwik.
-      </p>
+      {/* <Header /> */}
     </>
   );
 });
