@@ -16,7 +16,7 @@ export const head: DocumentHead = {
   title: 'Inverse',
   meta: [
     {
-      name: 'Inverse Inc', 
+      name: 'Inverse Inc',
       content: 'Inverse Inc technology solutions company',
     },
   ],

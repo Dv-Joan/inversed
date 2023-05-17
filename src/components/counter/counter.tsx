@@ -1,10 +1,6 @@
 import { component$, useSignal, useStore, $ } from "@builder.io/qwik";
-import "./counter.css";
 
-interface CounterProps {
-    count: number;
-    contador: number;
-}
+
 
 export default component$(() => {
     const count = useSignal(20);
